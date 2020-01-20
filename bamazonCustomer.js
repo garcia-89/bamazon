@@ -67,7 +67,7 @@ function purchaseOrder(ID, amtNeeded){
 
 			connection.query("UPDATE products SET StockQuantity = StockQuantity - " + amtNeeded + "WHERE ItemID = " + ID);
 		} else{
-			console.log("Insufficient quantity, sorry we do not have enough " + res[0].product_name + "to complete your order.");
+			console.log("Insufficient quantity, sorry we do not have enough " + res[0].ProductName + "to complete your order.");
 		};
 		displayProducts();
 	});
