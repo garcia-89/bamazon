@@ -36,3 +36,7 @@
    * Once the update goes through, show the customer the total cost of their purchase.
 
 
+![Log Output](images/ScreenShot1.png)
+![Log Output](images/ScreenShot2.png)
+![Log Output](images/ScreenShot3.png)
+![Log Output](images/ScreenShot4.png)
